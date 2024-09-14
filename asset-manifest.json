@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cars-spot/static/css/main.4e86be34.css",
+    "main.js": "/cars-spot/static/js/main.ce97277b.js",
+    "static/js/453.fa59062c.chunk.js": "/cars-spot/static/js/453.fa59062c.chunk.js",
+    "static/media/cars.png": "/cars-spot/static/media/cars.23b49f3bad3add8bdca6.png",
+    "static/media/car_2.jpg": "/cars-spot/static/media/car_2.0686cd2123a31f6e2b54.jpg",
+    "static/media/car_1.jpg": "/cars-spot/static/media/car_1.4fd2aa277cb07ebf1d20.jpg",
+    "static/media/car_3.jpg": "/cars-spot/static/media/car_3.64cedf83370b1c8c4014.jpg",
+    "static/media/logo.svg": "/cars-spot/static/media/logo.dcc1c4e5225cdb92d86fa5885d8f3516.svg",
+    "static/media/element.svg": "/cars-spot/static/media/element.310b6a894162e27d88fd.svg",
+    "index.html": "/cars-spot/index.html",
+    "static/media/arrow.svg": "/cars-spot/static/media/arrow.0348b56ec709b485bb077e36aec8d82b.svg",
+    "main.4e86be34.css.map": "/cars-spot/static/css/main.4e86be34.css.map",
+    "main.ce97277b.js.map": "/cars-spot/static/js/main.ce97277b.js.map",
+    "453.fa59062c.chunk.js.map": "/cars-spot/static/js/453.fa59062c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e86be34.css",
+    "static/js/main.ce97277b.js"
+  ]
+}
