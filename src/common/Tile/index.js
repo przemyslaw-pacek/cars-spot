@@ -3,7 +3,9 @@ import arrow from "./arrow.svg";
 
 const truncateText = (text, maxLength) => {
     const lastSpaceIndex = text.lastIndexOf(' ', maxLength);
-    return text.length <= maxLength ? text : text.slice(0, lastSpaceIndex + 1) + "[...]";
+    return text.length <= maxLength
+        ? text
+        : text.slice(0, lastSpaceIndex + 1) + "[...]";
 };
 
 export const Tile = ({ title, text }) => {
@@ -33,13 +35,24 @@ export const Tile = ({ title, text }) => {
                 </p>
                 <button
                     onClick={toggleText}
-                    className="mt-3 sm:mt-4 xl:mt-6 border-b-[1.5px] flex items-center gap-1.5 pb-1.5"
+                    className="
+                        mt-3
+                        sm:mt-4
+                        xl:mt-6
+                        border-b-[1.5px]
+                        flex
+                        items-center
+                        gap-1.5
+                        pb-1.5"
                 >
                     {isExpanded ? "Zwiń" : "Rozwiń"}
                     <img
                         src={arrow}
                         alt="arrow"
-                        className={`transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`
+                        className={`transition-transform duration-300
+                            ${isExpanded
+                                ? "rotate-180"
+                                : ""}`
                         }
                     />
                 </button>

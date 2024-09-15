@@ -29,10 +29,29 @@ export const Hero = () => (
             >
                 Sprzedajemy samochody <br />z europy
             </h1>
-            <p className="font-robotoCond text-[16px] leading-[24px] mt-[16px] sm:mt-[24px] xl:mt-[32px]">
-                Kup komfortowy pojazd, aby każda podróż <br />była wyjątkowym przeżyciem.
+            <p
+                className="
+                    font-robotoCond
+                    text-[16px]
+                    leading-[24px]
+                    mt-[16px]
+                    sm:mt-[24px]
+                    xl:mt-[32px]"
+            >
+                Kup komfortowy pojazd, aby każda podróż <br />
+                była wyjątkowym przeżyciem.
             </p>
-            <div className="font-robotoFlex mt-[24px] sm:mt-[36px] xl:mt-[48px] flex gap-3 sm:gap-4 xl:gap-6">
+            <div
+                className="
+                    font-robotoFlex
+                    mt-[24px]
+                    sm:mt-[36px]
+                    xl:mt-[48px]
+                    flex
+                    gap-3
+                    sm:gap-4
+                    xl:gap-6"
+            >
                 <ButtonLink
                     link="#gallery"
                     text="Zobacz zdjęcia"

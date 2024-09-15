@@ -19,7 +19,10 @@ export const ButtonLink = ({
             rounded-[8px]
             border-[1px]
             border-[#0147FF]"
-        style={{ backgroundColor: bgColor, color: textColor }}
+        style={{
+            backgroundColor: bgColor,
+            color: textColor
+        }}
     >
         {text}
     </a>

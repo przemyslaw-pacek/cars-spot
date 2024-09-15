@@ -1,5 +1,14 @@
 export const Headers = ({ activeTab, setActiveTab }) => (
-    <section className="mx-[22px] sm:mx-[44px] xl:mx-[88px] mt-[20px] sm:mt-[40px] xl:mt-[80px]" id="gallery">
+    <section
+        className="
+            mx-[22px]
+            sm:mx-[44px]
+            xl:mx-[88px]
+            mt-[20px]
+            sm:mt-[40px]
+            xl:mt-[80px]"
+        id="gallery"
+    >
         <div className="font-robotoCond text-[#0147FF] text-[21.5px] leading-8">
             Prezentacja firmy
         </div>
@@ -33,13 +42,21 @@ export const Headers = ({ activeTab, setActiveTab }) => (
         >
             <button
                 onClick={() => setActiveTab("osobowe")}
-                className={`${activeTab === "osobowe" ? "border-b border-[#0147FF] text-[#0147FF]" : ""}`}
+                className={`
+                    ${activeTab === "osobowe"
+                        ? "border-b border-[#0147FF] text-[#0147FF]"
+                        : ""}`
+                }
             >
                 Samochody osobowe
             </button>
             <button
                 onClick={() => setActiveTab("dostawcze")}
-                className={`${activeTab === "dostawcze" ? "border-b border-[#0147FF] text-[#0147FF]" : ""}`}
+                className={`
+                    ${activeTab === "dostawcze"
+                        ? "border-b border-[#0147FF] text-[#0147FF]"
+                        : ""}`
+                }
             >
                 Samochody dostawcze
             </button>

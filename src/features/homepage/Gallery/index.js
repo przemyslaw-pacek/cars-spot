@@ -35,7 +35,16 @@ export const Gallery = ({ activeTab }) => {
     };
 
     return (
-        <section className="ml-[22px] sm:ml-[44px] xl:ml-[88px] mt-[20px] sm:mt-[40px] xl:mt-[80px] overflow-x-hidden">
+        <section
+            className="
+                ml-[22px]
+                sm:ml-[44px]
+                xl:ml-[88px]
+                mt-[20px]
+                sm:mt-[40px]
+                xl:mt-[80px]
+                overflow-x-hidden"
+        >
             <div
                 className="flex transition-transform duration-500"
                 style={{
@@ -52,12 +61,27 @@ export const Gallery = ({ activeTab }) => {
                     />
                 ))}
             </div>
-            <nav className="mt-6 sm:mt-10 xl:mt-12 mb-10 sm:mb-16 xl:mb-20 py-2 flex justify-center gap-2 sm:gap-2.5">
+            <nav
+                className="
+                    mt-6
+                    sm:mt-10
+                    xl:mt-12
+                    mb-10
+                    sm:mb-16
+                    xl:mb-20
+                    py-2
+                    flex
+                    justify-center
+                    gap-2
+                    sm:gap-2.5"
+            >
                 {cars.map((_, index) => (
                     <button
                         key={index}
                         className={`w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full 
-                            ${currentCar === index ? "bg-[#0147FF]" : "bg-[#EDEDED]"
+                            ${currentCar === index
+                                ? "bg-[#0147FF]"
+                                : "bg-[#EDEDED]"
                             }`}
                         onClick={() => goToCar(index)}
                     ></button>
