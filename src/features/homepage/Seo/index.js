@@ -8,7 +8,9 @@ export const Seo = () => (
             grid
             grid-rows-[auto,auto]
             sm:grid-cols-[auto,auto]
-            gap-[48px]
+            gap-[22px]
+            sm:gap-x-12
+            sm:gap-y-0
             px-[30px]
             sm:px-[60px]
             xl:px-[120px]
