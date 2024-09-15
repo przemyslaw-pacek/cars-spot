@@ -22,9 +22,7 @@ export const Gallery = ({ activeTab }) => {
 
     useEffect(() => {
         setCurrentCar(0);
-
         updateImageSize();
-
         window.addEventListener("resize", updateImageSize);
 
         return () => window.removeEventListener("resize", updateImageSize);

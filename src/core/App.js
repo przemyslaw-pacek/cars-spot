@@ -11,7 +11,11 @@ function App() {
   const [activeTab, setActiveTab] = useState("osobowe");
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 5);
+  
+    return () => clearTimeout(timer);
   }, []);
 
   return (
