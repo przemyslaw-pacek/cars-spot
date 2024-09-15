@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cars-spot/static/css/main.4e86be34.css",
-    "main.js": "/cars-spot/static/js/main.ce97277b.js",
+    "main.js": "/cars-spot/static/js/main.fd6e071a.js",
     "static/js/453.fa59062c.chunk.js": "/cars-spot/static/js/453.fa59062c.chunk.js",
     "static/media/cars.png": "/cars-spot/static/media/cars.23b49f3bad3add8bdca6.png",
     "static/media/car_2.jpg": "/cars-spot/static/media/car_2.0686cd2123a31f6e2b54.jpg",
@@ -12,11 +12,11 @@
     "index.html": "/cars-spot/index.html",
     "static/media/arrow.svg": "/cars-spot/static/media/arrow.0348b56ec709b485bb077e36aec8d82b.svg",
     "main.4e86be34.css.map": "/cars-spot/static/css/main.4e86be34.css.map",
-    "main.ce97277b.js.map": "/cars-spot/static/js/main.ce97277b.js.map",
+    "main.fd6e071a.js.map": "/cars-spot/static/js/main.fd6e071a.js.map",
     "453.fa59062c.chunk.js.map": "/cars-spot/static/js/453.fa59062c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e86be34.css",
-    "static/js/main.ce97277b.js"
+    "static/js/main.fd6e071a.js"
   ]
 }
