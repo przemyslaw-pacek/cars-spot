@@ -3,12 +3,15 @@
 ![image](./animation.gif)
 
 ## Description
+
 This is the cars spot where you can see a large number of passenger cars and commercial vehicles available on the European market. Choose the car you are most interested in and call us.
 
 ## Demo
+
 If you want to check, clik [here](https://przemyslaw-pacek.github.io/cars-spot/).
 
 ## Technologies:
+
 - HTML
 - CSS
 - JavaScript

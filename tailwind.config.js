@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        robotoFlex: ['Roboto Flex', 'sans-serif'],
-        robotoCond: ['Roboto Condensed', 'sans-serif'],
+        robotoFlex: ["Roboto Flex", "sans-serif"],
+        robotoCond: ["Roboto Condensed", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
+};

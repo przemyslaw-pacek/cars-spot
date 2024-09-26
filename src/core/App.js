@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import { Footer } from '../features/homepage/Footer';
-import { Gallery } from '../features/homepage/Gallery';
-import { Headers } from '../features/homepage/Headers';
-import { Hero } from '../features/homepage/Hero';
-import { Navigations } from '../features/homepage/Navigations';
-import { Seo } from '../features/homepage/Seo';
-import './App.css';
+import { useEffect, useState } from "react";
+import { Footer } from "../features/homepage/Footer";
+import { Gallery } from "../features/homepage/Gallery";
+import { Headers } from "../features/homepage/Headers";
+import { Hero } from "../features/homepage/Hero";
+import { Navigations } from "../features/homepage/Navigations";
+import { Seo } from "../features/homepage/Seo";
+import "./App.css";
 
 function App() {
   const [activeTab, setActiveTab] = useState("osobowe");
@@ -14,7 +14,7 @@ function App() {
     const timer = setTimeout(() => {
       window.scrollTo(0, 0);
     }, 5);
-  
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -27,7 +27,7 @@ function App() {
       <Seo />
       <Footer />
     </>
-  )
-};
+  );
+}
 
 export default App;
