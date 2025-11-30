@@ -12,7 +12,7 @@ export const Footer = () => (
       lg:py-6
       flex
       justify-between
-     border-t"
+      border-t"
   >
     <div className="font-bold">Cars Spot</div>
     <a
